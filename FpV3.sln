@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FpV3.Android", "FpV3\FpV3.Android\FpV3.Android.csproj", "{173FCAC4-08DC-41B6-99F3-402648CE8B6C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FpV3", "FpV3\FpV3\FpV3.shproj", "{3003AA97-97C5-45A3-AFA2-65D793819EF7}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		FpV3\FpV3\FpV3.projitems*{173fcac4-08dc-41b6-99f3-402648ce8b6c}*SharedItemsImports = 4
+		FpV3\FpV3\FpV3.projitems*{3003aa97-97c5-45a3-afa2-65d793819ef7}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{173FCAC4-08DC-41B6-99F3-402648CE8B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173FCAC4-08DC-41B6-99F3-402648CE8B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173FCAC4-08DC-41B6-99F3-402648CE8B6C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{173FCAC4-08DC-41B6-99F3-402648CE8B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173FCAC4-08DC-41B6-99F3-402648CE8B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173FCAC4-08DC-41B6-99F3-402648CE8B6C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17083F38-EFA0-4385-BE57-CCD1DC03E139}
+	EndGlobalSection
+EndGlobal

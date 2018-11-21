@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{3003AA97-97C5-45A3-AFA2-65D793819EF7}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FpV3</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AccountCreation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Artist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ArtistInfoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)loginPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Manager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ManagerInfoPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewArtist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TabPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Venue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VenueInfoPage.cs" />
+  </ItemGroup>
+</Project>
